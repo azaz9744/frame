@@ -21,8 +21,10 @@ header{
         height: 1080px;
         text-align: center;
         display:flex; 
-        justify-content: center; /* 가로 중앙 정렬 */
-    } /* 세로 중앙 정렬? 후 위치 조정 */
+        justify-content: center;
+        background-color: black ;
+
+    } 
 
 .wrap02{position: relative;
         width:100%;
