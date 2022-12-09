@@ -21,10 +21,8 @@ header{
         height: 1080px;
         text-align: center;
         display:flex; 
-        justify-content: center;
-        background-color: black ;
-
-    } 
+        justify-content: center; /* 가로 중앙 정렬 */
+    } /* 세로 중앙 정렬? 후 위치 조정 */
 
 .wrap02{position: relative;
         width:100%;
@@ -76,7 +74,7 @@ header{
 
 .wrap09{position: relative; 
         width:100%;
-        height: 4365px;
+        height: 5247px;
         text-align: center;
         background-color: #E8E8E8;
     }
@@ -311,13 +309,28 @@ header{
 .c09{
     background-image: url(img/09_01.png);
     width: 100%;
-    height: 4101px;
+    height: 4957px;
     position: absolute;
     align-items: center;
     background-repeat: no-repeat;
     background-position: center;
     margin-top: 110px;
 }
+    .c09_video{
+        width: 100%;
+        height: 832px;
+        position: absolute;
+        align-items: center;
+        background-repeat: no-repeat;
+        background-position: center;
+        margin-top: 4124px;
+        z-index: 4;
+
+    }
+    #v_09{
+        width: 1482px;
+        margin-right: 3px;
+    }
 .wrap10{
     position: relative; 
         width:100%;
